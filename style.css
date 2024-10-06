@@ -16,7 +16,6 @@ body {
   display: flex;
   flex-direction: row;
   background-color: white;
-  position: relative;
   width: 1920px;
   height: 1080px;
 }
@@ -30,18 +29,18 @@ body {
 
 .ragistr_div {
   display: flex;
-  justify-content: center;
-  align-items: self-start;
+  justify-content: space-evenly;
+  align-items: start;
   flex-direction: row;
-  position: absolute;
   width: 434px;
   height: 794px;
-  top: 143px;
-  left: 1146.25px;
+margin: 100px;
+
 }
 
 .tex_div{
     display: flex;
-    justify-content: center;
-    align-items: flex-start;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
 }
