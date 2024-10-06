@@ -15,152 +15,147 @@ body {
 .container {
   background-color: white;
   width: 1920px;
-  height: 1080px;  
+  height: 1080px;
 }
 
-.container_img{
-    display: flex;
-    justify-content: center;
-    gap: 200px;
-   
+.container_img {
+  display: flex;
+  justify-content: center;
+  gap: 200px;
 }
-.image{
-    display: flex;
-    justify-content: start;
-margin-left: -480px;
+.image {
+  display: flex;
+  justify-content: start;
+  margin-left: -480px;
 }
-.registracion_div{
-    width: 434px;
-    height: 794px;
+.registracion_div {
+  width: 434px;
+  height: 794px;
   display: flex;
   justify-content: center;
   align-items: center;
-    gap: 20px;
+  gap: 20px;
 }
-.icone{
- 
-    margin-top: 150px;
+.icone {
+  margin-top: 150px;
 }
-.heading{
-    display: flex;
-    justify-content: space-around;
+.heading {
+  display: flex;
+  justify-content: space-around;
 }
-.heading_tex{
-    font-family: Poppins;
-font-size: 30px;
-font-weight: 600;
-line-height: 49.95px;
-text-align: left;
+.heading_tex {
+  font-family: Poppins;
+  font-size: 30px;
+  font-weight: 600;
+  line-height: 49.95px;
+  text-align: left;
 
-margin-top: 150px;
+  margin-top: 150px;
 }
-.paragraph{
-    font-family: Poppins;
-font-size: 18px;
-font-weight: 300;
-line-height: 29.97px;
-text-align: left;
-color: #949494;
-margin-top: 16px;
+.paragraph {
+  font-family: Poppins;
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 29.97px;
+  text-align: left;
+  color: #949494;
+  margin-top: 16px;
 }
-.heading_input{
-    font-family: Poppins;
-font-size: 20px;
-font-weight: 400;
-line-height: 33.3px;
-text-align: start;
-color: #212121;
-margin-top: 16px;
+.heading_input {
+  font-family: Poppins;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 33.3px;
+  text-align: start;
+  color: #212121;
+  margin-top: 16px;
 }
-.name_inp{
-    width: 432.17px;
-height: 60px;
-border-radius: 8px;
-font-family: Poppins;
-font-size: 18px;
-font-weight: 300;
-line-height: 29.97px;
-text-align: left;
-margin-top: 16px;
-
-}
-
-.button{
-    display: flex;
-    justify-content: center;
-flex-direction: column;
-gap: 30px;
-margin-top: 30px;
-}
-.Account_div{
-    background-color: #4443FF;
-    width:433px;
-height: 69px;
-border-radius: 8px;
-display: flex;
-justify-content: center;
-}
-.button_account{
-    background-color: #4443FF;
-    color: #FFFFFF;
-    border: none;
-    font-family: Poppins;
-font-size: 20px;
-font-weight: 600;
-line-height: 33.3px;
-text-align: left;
-
-}
-.red{
-    color: red;
-}
-.google_button{
-    width:433px;
-height: 69px;
-padding: 18px 32px 18px 32px;
-gap: 24px;
-border-radius: 8px;
-background-color: #FFFFFF;
-display: flex;
-justify-content: center;
-
-}
-.google_img{
-    width: 32px;
-height: 32px;
+.name_inp {
+  padding: 16px;
+  width: 432.17px;
+  height: 60px;
+  border-radius: 8px;
+  font-family: Poppins;
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 29.97px;
+  text-align: left;
+  margin-top: 16px;
 }
 
-.heading_google{
-    font-family: Poppins;
-font-size: 20px;
-font-weight: 600;
-line-height: 33.3px;
-text-align: left;
-color: #4443FF;
+.button {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  gap: 30px;
+  margin-top: 30px;
+}
+.Account_div {
+  background-color: #4443ff;
+  width: 433px;
+  height: 69px;
+  border-radius: 8px;
+  display: flex;
+  justify-content: center;
+}
+.button_account {
+  background-color: #4443ff;
+  color: #ffffff;
+  border: none;
+  font-family: Poppins;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 33.3px;
+  text-align: left;
+}
+.red {
+  color: red;
+}
+.google_button {
+  width: 433px;
+  height: 69px;
+  padding: 18px 32px 18px 32px;
+  gap: 24px;
+  border-radius: 8px;
+  background-color: #ffffff;
+  display: flex;
+  justify-content: center;
+}
+.google_img {
+  width: 32px;
+  height: 32px;
 }
 
-.log_div{
-    display: flex;
-    justify-content: center;
-    margin-top: 16px;
+.heading_google {
+  font-family: Poppins;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 33.3px;
+  text-align: left;
+  color: #4443ff;
 }
-.Account_login{
-    font-family: Poppins;
-font-size: 18px;
-font-weight: 300;
-line-height: 29.97px;
-text-align: left;
-color: #949494;
-}
-.span_login{
-    border: none;
-    background-color: #FFFFFF;
-    color: #7271FF;
-    text-decoration: underline;
-    font-family: Poppins;
-font-size: 18px;
-font-weight: 500;
-line-height: 29.97px;
-text-align: left;
 
+.log_div {
+  display: flex;
+  justify-content: center;
+  margin-top: 16px;
+}
+.Account_login {
+  font-family: Poppins;
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 29.97px;
+  text-align: left;
+  color: #949494;
+}
+.span_login {
+  border: none;
+  background-color: #ffffff;
+  color: #7271ff;
+  text-decoration: underline;
+  font-family: Poppins;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 29.97px;
+  text-align: left;
 }
