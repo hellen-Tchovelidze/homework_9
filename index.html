@@ -9,27 +9,27 @@
   <body>
     <div class="container">
       <div class="container_img">
-        <img src="./images/Frame 66.png" alt="Frame" />
+        <img src="./images/Frame 66.png" alt="Frame" class="image" />
         <section class="registracion_div">
           <div>
             <div class="heading">
-              <img src="./images/Group 74.png" alt="icone" />
-              <h1>Create an Account</h1>
+              <img src="./images/Group 74.png" alt="icone" class="icone"/>
+              <h1 class="heading_tex">Create an Account</h1>
             </div>
             <div>
-              <p>
+              <p class="paragraph">
                 Became trivo member ,you’ll get exlusive <br />treatment from
                 trivo
               </p>
             </div>
-            <div>
-              <h1>Full Name</h1>
+            <div >
+              <h1 class="heading_input">Full Name</h1>
               <label for="name"></label>
               <input type="text" id="name" placeholder="Enter your full name"  class="name_inp"/>
-              <h1>Email *</h1>
+              <h1 class="heading_input">Email <span class="red">*</span></h1>
               <label for="emile"></label>
               <input type="email" id="email" placeholder="Enter aemail" class="name_inp" />
-              <h1>Password *</h1>
+              <h1 class="heading_input">Password <span class="red">*</span></h1>
               <label for="pasword"></label>
               <input
                 type="password"
@@ -37,14 +37,20 @@
                 placeholder="Create a password"  class="name_inp"
               />
 <div class="button">
-    <button>Create an Account</button>
-    <button>
+    <div class="Account_div">
+        <button class="button_account">Create an Account</button>
+    </div>
+   
+    <button class="google_button">
       <img
         src="./images/flat-color-icons_google.png"
-        alt="icons_google"
+        alt="icons_google" class="google_img" 
       />
-      <h1>sign up with google</h1>
+      <h1 class="heading_google">sign up with google</h1>
     </button>
+</div>
+<div class="log_div">
+    <p class="Account_login">Already have an account? <button class="span_login">log in</button></p>
 </div>
            
             </div>
