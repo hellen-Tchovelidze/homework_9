@@ -5,42 +5,51 @@
   margin: 0;
 }
 body {
-  display: flex;
   background-color: lightgray;
+  height: 100vh;
+  display: flex;
   justify-content: center;
   align-items: center;
-  height: 100vh;
 }
 
 .container {
-  display: flex;
-  flex-direction: row;
   background-color: white;
   width: 1920px;
   height: 1080px;
 }
 
-.bk_image {
-  background-image: url(./images/Frame\ 66.png);
-  background-repeat: no-repeat;
-  background-position: 700px;
-  background-size: 600px;
-}
-
-.ragistr_div {
-  display: flex;
-  justify-content: space-evenly;
-  align-items: start;
-  flex-direction: row;
-  width: 434px;
-  height: 794px;
-margin: 100px;
-
-}
-
-.tex_div{
+.container_img{
     display: flex;
-    align-items: center;
-    flex-direction: column;
     justify-content: space-between;
+   
+}
+.registracion_div{
+    width: 434px;
+    height: 794px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+    gap: 100px;
+}
+.heading{
+    display: flex;
+    justify-content: space-around;
+}
+.name_inp{
+    width: 432.17px;
+height: 60px;
+border-radius: 15px;
+font-family: Poppins;
+font-size: 18px;
+font-weight: 300;
+line-height: 29.97px;
+text-align: left;
+
+
+}
+
+.button{
+    display: flex;
+    justify-content: center;
+flex-direction: column;
 }
